@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap');
+body {font-family:"微軟正黑體","Noto Sans SC", sans-serif;}
+/* 變更整體文字大小 html {font-size: 32px;} */
+
+/* 變更個別文字大小 
+h5 {font-size: 2rem;}*/
+
+:root,
+[data-bs-theme=dark]{
+    --bs-dark-rgb: 115, 115, 185;
+}
+/* 紫色文字 */
+.text-purple{color: rgb(162, 26, 117);}
+/* 綠色文字 */
+.text-green{color: rgb(26, 162, 39);}
+/* 橘色文字 */
+.text-orange{color: rgb(255, 165, 0);}
+/* 紅字文字 */
+.test-red{color: rgb(255, 0, 0);}
+/* 藍色文字 */
+.test-blue{color: rgb(0, 0, 255);}
